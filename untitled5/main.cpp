@@ -14,7 +14,14 @@ int main() {
         a++;
     } while (a <=10 );
 
- 
+
+    cout << "tabla del 9" << endl;
+    do {
+        resu2 = 9 * b ;
+        cout << 9 << "*" << b << "=" << resu2 << endl;
+        b++;
+    } while ( b <= 10);
+
 
     return 0;
 }
