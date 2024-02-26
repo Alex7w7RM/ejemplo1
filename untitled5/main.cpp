@@ -22,6 +22,18 @@ int main() {
         b++;
     } while ( b <= 10);
 
+    int num1;
+
+    bool primo = true ;
+
+    cout << "ingrese un numero para determinar si es primo" << endl;
+    cin >> num1;
+    for (int i = 2; i < num1 ; i++) {
+        if (num1 % i==0) primo= false;
+
+    }
+    if ( primo == true) cout << "el numero es primo" << endl;
+    else cout << " el numero no es primo" << endl;
 
     return 0;
 }
